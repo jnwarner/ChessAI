@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/joshua/Projects/cpp/Chess/Board.cpp
+Board.h
+/Users/joshua/Projects/cpp/Chess/Board.h
+
+/Users/joshua/Projects/cpp/Chess/Board.h
+Piece.h
+/Users/joshua/Projects/cpp/Chess/Piece.h
+
+/Users/joshua/Projects/cpp/Chess/Piece.cpp
+Piece.h
+/Users/joshua/Projects/cpp/Chess/Piece.h
+
+/Users/joshua/Projects/cpp/Chess/Piece.h
+iostream
+-
+cstring
+-
+unistd.h
+-
+
+/Users/joshua/Projects/cpp/Chess/main.cpp
+Board.h
+/Users/joshua/Projects/cpp/Chess/Board.h
+
